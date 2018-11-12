@@ -1,0 +1,163 @@
+@media only screen and (max-width:480px){
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.heading{
+	width: 100%;
+	position: absolute;
+}
+.color{
+	width: 100%;
+}
+.sub-heading{
+	width: 90%;
+	margin: 0 auto;
+}
+.bg-image img{
+	width: 100%;
+	height: 400px;
+}
+.logo img{
+	width: 150px;
+}
+.about-left{
+	width: 100%;
+}
+.about-right{
+	width: 100%;
+}
+.design-slide{
+	height: 300px;
+}
+.design-slide img{
+	height: 300px;
+}
+.develop-slide{
+	height: 300px;
+}
+.develop-slide img{
+	height: 300px;
+}
+.responsive-slide{
+	height: 300px;
+}
+.responsive-slide img{
+	height: 300px;
+}
+.container{
+	width: 100%;
+	height: 1000px;
+}
+.container .box{
+	width: 100%;
+	margin-top: 20px;
+}
+.design-left{
+	width: 100%;
+}
+.design-right{
+	width: 100%;
+}
+.heading-develop h1{
+	width: 95%;
+}
+.develop-right{
+	width: 100%;
+}
+.develop-left{
+	width: 100%;
+}
+.responsive-left{
+	width: 98%;
+}
+.responsive-right{
+	width: 100%;
+}
+.responsive-heding h1{
+	width: 88%;
+}
+.services-left{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.services-middle{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.services-right{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.services-right img{
+	text-align: center;
+	width: 28px;
+	padding:10px;
+}
+.services-left img{
+	text-align: center;
+	width: 28px;
+	padding:10px;
+}
+.services-middle img{
+	text-align: center;
+	width: 28px;
+	padding:10px;
+}
+.services-middle{
+	height: 325px;
+}
+.services-left{
+	height: 325px;
+}
+.services-right{
+	height: 325px;
+}
+.portfolio-tv{
+	height: 700px;
+}
+.portfolio-left{
+	width: 100%;
+}
+.portfolio-left img{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.portfolio-content p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.portfolio-right{
+	width: 100%;
+}
+.contact-left{
+	width: 100%;
+}
+.contact-right{
+	width: 100%;
+}
+.form-control {
+    width: 290px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fffafa;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.mail-left img{
+	width: 55px;
+}
+.mail-right p{
+	font-size: 13px;
+}
+}

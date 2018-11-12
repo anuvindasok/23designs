@@ -1,0 +1,35 @@
+@media only screen and (max-width:1030px) and (min-width:779px) {
+
+  .responsive-left{
+    width: 47%;
+  }
+   
+  .services-right {
+   	  width:70%;
+      margin: 0 auto;
+      margin-left: 15px;
+      margin-top: 10px;
+   }
+  .services-middle {
+   	  width: 70%;
+      margin: 0 auto;
+      margin-left: 15px;
+      margin-top: 10px;
+   }
+  .services-left {
+   	  width: 70%;
+      margin: 0 auto;
+      margin-left: 15px;
+      margin-top: 10px;
+   }
+   .services-left img{
+   	width: 27px;
+   }
+
+   .services-middle img{
+   	width: 27px;
+   }
+   .services-right img{
+   	width: 27px;
+   }
+}
