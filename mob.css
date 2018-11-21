@@ -93,6 +93,9 @@
 	margin: 0 auto;
 	margin-top: 10px;
 }
+.services-middle li {
+	font-size: 15px;
+}
 .services-right{
 	width: 90%;
 	margin: 0 auto;

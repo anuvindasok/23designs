@@ -89,26 +89,26 @@ nav{
 	float: right;
 	background-color: #101319a1;
 }
-ul{
+.sub-navigation ul{
    text-align: center;
    list-style-type: none;
 }
-li{
+.sub-navigation li{
 	padding: 20px;
     font-weight: 600;
     font-size: 20px;
 }
-ul li a{
+.sub-navigation ul li a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1em;
 	position: relative;
 	color: #fff;
 }
-ul li a:hover{
+.sub-navigation ul li a:hover{
 	color: #ff0;
 }
-ul li a span:first-child:before{
+.sub-navigation ul li a span:first-child:before{
   content: '';
   position: absolute;
   top: 0;
@@ -122,7 +122,7 @@ ul li a span:first-child:before{
   opacity:0;
 }
 
-ul li a span:first-child:after{
+.sub-navigation ul li a span:first-child:after{
   content: '';
   position: absolute;
   top: 0;
@@ -135,20 +135,20 @@ ul li a span:first-child:after{
   transition: .2s;
   opacity:0;
 }
-ul li a span:last-child:before{
+.sub-navigation ul li a span:last-child:before{
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 8px;
-  height: 8px;
+  height: 8px;.sub-navigation 
   background: transparent;
   border-bottom: 2px solid #ff0;
   border-left: 2px solid #ff0;
   transition: .2s;
   opacity:0;
 }
-ul li a span:last-child:after{
+.sub-navigation ul li a span:last-child:after{
   content: '';
   position: absolute;
   bottom: 0;
@@ -161,22 +161,22 @@ ul li a span:last-child:after{
   transition: .2s;
   opacity:0;
 }
-ul li a:hover span:first-child:before{
+.sub-navigation ul li a:hover span:first-child:before{
   top: -10px;
   left: -10px;
   opacity: 1; 
 }
-ul li a:hover span:first-child:after{
+.sub-navigation ul li a:hover span:first-child:after{
   top: -10px;
   right: -10px;
   opacity: 1; 
 }
-ul li a:hover span:last-child:before{
+.sub-navigation ul li a:hover span:last-child:before{
   bottom: -10px;
   left: -10px;
   opacity: 1; 
 }
-ul li a:hover span:last-child:after{
+.sub-navigation ul li a:hover span:last-child:after{
   bottom: -10px;
   right: -10px;
   opacity: 1; 
@@ -279,6 +279,10 @@ main{
 .about-content{
     width: 90%;
     margin: 20px auto;
+}
+.about-content span{
+	font-size: 25px;
+	color: red;
 }
 .about-content p{
 	font-family: sans-serif;
@@ -567,6 +571,23 @@ h3{
 	background: #fb8a2e;
 	border:10px solid white;
     box-shadow: 0px 0px 5px 2px #ccc;
+}
+.services-middle li{
+	color: #094086;
+	font-size: 18px;
+}
+.host-left{
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+}
+.host-right{
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+}
+.services-middle ul{
+   margin-left: 20px; 
 }
 .services-middle img{
 	text-align: center;
